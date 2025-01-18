@@ -9,9 +9,33 @@
 <body>
     <h1>Lista de Tarefas</h1>
     <header>
-        <input type="text" placeholder="Digite sua Tarefa">
-        <button class="add">Adicionar</button>
+        <input type="text" id="inputTarefa" placeholder="Digite sua Tarefa">
+        <button onclick="addTarefa()" class="add" id="btnAdd">Adicionar</button>
     </header>
+    <main id="areaLista">
+        <div class="item clicado">
+            <div class="item-icone">
+                <i>•</i>
+            </div>
+            <div class="item-nome">
+                Teste de Tarefa
+            </div>
+            <div class="item-botao">
+                <button class="delete">Deletar</button>
+            </div>
+        </div>
+        <div class="item">
+            <div class="item-icone">
+                <i>○</i>
+            </div>
+            <div class="item-nome">
+                Teste de Tarefa
+            </div>
+            <div class="item-botao">
+                <button class="delete">Deletar</button>
+            </div>
+        </div>
+    </main>
 
 
 
